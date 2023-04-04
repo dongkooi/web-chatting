@@ -44,18 +44,7 @@
     "require-await": "error",
     "import/no-extraneous-dependencies": "off",
     // Configure prettier
-    "prettier/prettier": [
-      "error",
-      {
-        "arrowParens": "avoid",
-        "bracketSameLine": true,
-        "bracketSpacing": false,
-        "singleQuote": true,
-        "trailingComma": "all",
-        "printWidth": 120,
-        "tabWidth": 2
-      }
-    ],
+    "prettier/prettier": "error",
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/no-unsafe-assignment": "off",
     "@typescript-eslint/no-unsafe-member-access": "off",
